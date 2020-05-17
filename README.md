@@ -1,5 +1,56 @@
 # Corona_Virus
 ## Diagnosed using X-ray and CT-scan
+# Diagnois using Chest Xray result
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F1-score</th>
+    <th>Accuracy</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fold 1</td>
+    <td>0.99</td>
+    <td>0.98</td>
+    <td>0.98</td>
+    <td>0.98</td>
+  </tr>
+  <tr>
+    <td>Fold 2</td>
+    <td>0.99</td>
+    <td>0.98</td>
+    <td>0.99</td>
+    <td>0.98</td>
+  </tr>
+  <tr>
+    <td>Fold 3</td>
+    <td>0.97</td>
+    <td>0.98</td>
+    <td>0.98</td>
+    <td>0.97</td>
+  </tr>
+  <tr>
+    <td>Fold 4</td>
+    <td>0.98</td>
+    <td>0.98</td>
+    <td>0.98</td>
+    <td>0.97</td>
+  </tr>
+  <tr>
+    <td>Fold 5</td>
+    <td>0.98</td>
+    <td>0.98</td>
+    <td>0.98</td>
+    <td>0.97</td>
+  </tr>
+</tbody>
+</table>
+
+
 We achieved an F1 score of <strong>0.98</strong>. Result can be reproduce through this [notebook](https://github.com/talhaanwarch/Corona_Virus/blob/master/notebooks/Corona_aug.ipynb)
 
 In order to download data in [notebook](https://github.com/talhaanwarch/Corona_Virus/blob/master/notebooks/Corona_aug.ipynb) you need to provide it a kaggle API. Go to kaggle.com, click on my account and then go to API section. Click on create new API token. It will download a file , *kaggle.json* . upload this *kaggle.json*  to *content* folder of colab. And run the whole notebook.
