@@ -64,7 +64,7 @@ We achieved an F1 score of <strong>0.98</strong>. Result can be reproduce throug
 
 In order to download data in [notebook](https://github.com/talhaanwarch/Corona_Virus/blob/master/notebooks/Corona_aug.ipynb) you need to provide it a kaggle API. Go to kaggle.com, click on my account and then go to API section. Click on create new API token. It will download a file , *kaggle.json* . upload this *kaggle.json*  to *content* folder of colab. And run the whole notebook.
 ## Result using CT-scan dataset  
-Dataset is taken thorugh [github.com/UCSD-AI4H/COVID-CT](https://github.com/UCSD-AI4H/COVID-CT) repo, where author achieved an F1-score of 0.85.  
+Dataset is taken from [github.com/UCSD-AI4H/COVID-CT](https://github.com/UCSD-AI4H/COVID-CT) repo, where author achieved an F1-score of 0.85.  
 <strong>All CT-scan related files are in CT-scan folder</strong>  
 Here i study effect of learning rate on model performance.  
 <table>
