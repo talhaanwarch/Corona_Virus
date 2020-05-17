@@ -70,52 +70,42 @@ Here i study effect of learning rate on model performance.
 <table>
 <thead>
   <tr>
-    <th>LR Methodology</th>
-    <th>Classes</th>
-    <th>Precision</th>
-    <th>Recall</th>
-    <th>F1 Score</th>
+    <th></th>
+    <th>Plateau LR</th>
+    <th>Cyclic LR</th>
+    <th>Constant LR</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="2"><br>Plateau  LR<br></td>
-    <td>COVID</td>
-    <td>0.94</td>
-    <td>0.84</td>
-    <td>0.89</td>
-  </tr>
-  <tr>
-    <td>Non-COVID</td>
-    <td>0.86</td>
-    <td>0.95</td>
+    <td>Macro Average Precision</td>
     <td>0.90</td>
-  </tr>
-  <tr>
-    <td rowspan="2"><br>Cyclic LR</td>
-    <td>COVID</td>
-    <td>0.97</td>
-    <td>0.73</td>
-    <td>0.84</td>
-  </tr>
-  <tr>
-    <td>Non-COVID</td>
-    <td>0.80</td>
-    <td>0.98</td>
-    <td>0.88</td>
-  </tr>
-  <tr>
-    <td rowspan="2"><br>Constant LR</td>
-    <td>COVID</td>
-    <td>0.94</td>
-    <td>0.68</td>
-    <td>0.79</td>
-  </tr>
-  <tr>
-    <td>Non-COVID</td>
-    <td>0.77</td>
-    <td>0.96</td>
+    <td>0.89</td>
     <td>0.85</td>
+  </tr>
+  <tr>
+    <td>Macro Average Recall</td>
+    <td>0.89</td>
+    <td>0.86</td>
+    <td>0.82</td>
+  </tr>
+  <tr>
+    <td>Macro Average F1 Score</td>
+    <td>0.90</td>
+    <td>0.86</td>
+    <td>0.82</td>
+  </tr>
+  <tr>
+    <td>Accuracy</td>
+    <td>0.90</td>
+    <td>0.86</td>
+    <td>0.86</td>
+  </tr>
+  <tr>
+    <td>AUC score</td>
+    <td>0.90</td>
+    <td>0.86</td>
+    <td>0.82</td>
   </tr>
 </tbody>
 </table>
