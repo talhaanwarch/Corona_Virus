@@ -111,3 +111,7 @@ Here i study effect of learning rate on model performance.
 </table>
 
 Jeremy Kohn has compiled all image based diagnostic of coronavirus at one place. Do check his repo [github.com/jeremykohn/rid-covid](https://github.com/jeremykohn/rid-covid)
+
+# PAPER citation
+Anwar, Talha; Zakir, Seemab (2020): Deep learning based diagnosis of COVID-19 using chest CT-scan images. TechRxiv. Preprint. https://doi.org/10.36227/techrxiv.12328061.v1
+
